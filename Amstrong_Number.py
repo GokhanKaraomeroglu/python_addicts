@@ -3,9 +3,9 @@ print("***********************************************")
 print("Amstrong Sayısı Bulma Programına Hoşgeldiniz...")
 print("***********************************************\n")
 while True:
-  amstrong_sayisi = input ('Bir sayı giriniz... ')
+  amstrong_sayisi = input ('Bir tam sayı giriniz... ')
   if not amstrong_sayisi.strip().lstrip('+-').isdigit():
-    print (amstrong_sayisi, 'bir sayı değildir.\n')
+    print (amstrong_sayisi, 'bir tam sayı değildir.\n')
     
   elif int (amstrong_sayisi)<0 :
       print("Negatif sayı giremezsiniz...\n")
